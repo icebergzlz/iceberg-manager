@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background: url("./assets/1.jpg") fixed 100% 100%; */
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+.header {
+    background-color: rgb(30, 108, 128);
+    margin: 0 auto;
+    width: 99%;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.context {
+    margin-top: 32px;
+    height: 1650px;
+}
+.context .left {
+    width: 18%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+}
+.context .left .leftin {
+    position: fixed;
+    width: 18%;
+    background-color: rgb(30, 108, 128);
+    height: 400px;
+    left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.context .center {
+    width: 55%;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+.context .center .centertle {
+    background-color:rgb(30, 108, 128);
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.context .right {
+    background-color:rgb(30, 108, 128);
+    width: 22%;;
+    height: 450px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(30, 108, 128);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
